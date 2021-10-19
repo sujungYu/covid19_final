@@ -1,13 +1,13 @@
 module.exports = {
     devServer: {
       proxy: {
-        '/openapi':{
+        '/openapi/':{
           "target": 'http://openapi.data.go.kr',
           "pathRewrite": {'^/':''},
           "changeOrigin": true,
           "secure": false
         },
-        '/irgd':{
+        '/irgd/':{
           "target": 'https://nip.kdca.go.kr',
           "pathRewrite": {'^/':''},
           "changeOrigin": true,
