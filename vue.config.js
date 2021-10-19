@@ -16,5 +16,5 @@ module.exports = {
     },
   },
   outputDir: 'docs',
-  publicPath:'/covid_project'
+  publicPath:'/covid_project/'
 }
